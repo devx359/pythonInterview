@@ -1,0 +1,10 @@
+def rev(value):
+   
+    str = value.split(" ")
+    result = " ".join( reversed(str))
+
+    return result    
+
+val = "Python seems to be easy"
+print(rev(val))
+
